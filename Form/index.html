@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <main>
+        <h1>Registration Form</h1>
+        <form onsubmit="return false">
+            <label>First Name</label><br>
+            <input type="text" id="fname"><br><br>
+            <label>Surname</label><br>
+            <input type="text" id="sname"><br><br>
+            <label> Email</label><br><br>
+            <input type="email" id = "email"><br><br>
+            <select id="gender" name="gender">
+                <option value="None" selected disabled >Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select><br><br>
+            <button type="submit" onclick="getValue()">submit</button>
+        </form>
+    </main>
+    
+</body>
+</html>
